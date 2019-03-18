@@ -1,6 +1,6 @@
 // @flow
 import React, { Component } from 'react';
-import DeckGL from 'deck.gl';
+import DeckGL from '@deck.gl/react';
 import { NebulaCore } from 'nebula.gl';
 import PropTypes from 'prop-types';
 

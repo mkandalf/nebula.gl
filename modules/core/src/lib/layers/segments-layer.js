@@ -1,5 +1,4 @@
 // @flow
-import { COORDINATE_SYSTEM } from 'deck.gl';
 import { MAX } from 'luma.gl/constants';
 
 import { ArrowStyles, DEFAULT_STYLE, MAX_ARROWS } from '../style';
@@ -94,7 +93,6 @@ export default class SegmentsLayer extends NebulaLayer {
       getDirection: nf => NEBULA_TO_DECK_DIRECTIONS[nf.style.arrowStyle],
       getMarkerColor: nf => toDeckColor(nf.style.arrowColor, defaultColor),
       getMarkerPercentages: this._calcMarkerPercentages,
-      coordinateSystem: COORDINATE_SYSTEM.LNGLAT_EXPERIMENTAL,
       updateTriggers: { all: updateTrigger },
 
       highlightedObjectIndex: this._getHighlightedObjectIndex({ nebula }),

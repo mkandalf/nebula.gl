@@ -1,6 +1,4 @@
 // @flow
-import { COORDINATE_SYSTEM } from 'deck.gl';
-
 import JunctionScatterplotLayer from '../deck-renderer/junction-scatterplot-layer';
 import NebulaLayer from '../nebula-layer';
 import { toDeckColor } from '../utils';
@@ -36,7 +34,6 @@ export default class JunctionsLayer extends NebulaLayer {
         blend: false
       },
 
-      coordinateSystem: COORDINATE_SYSTEM.LNGLAT_EXPERIMENTAL,
       updateTriggers: { all: updateTrigger },
 
       nebulaLayer: this
