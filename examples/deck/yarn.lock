@@ -625,10 +625,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@deck.gl/core@>=7.0.0-alpha.5":
-  version "7.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@deck.gl/core/-/core-7.0.0-alpha.5.tgz#d30f00b16c7bc0e8c6dd07c55c19927c7a5b3da7"
-  integrity sha512-f9KJ2P/Y3O2xNk+2pLMGqM+TAF7hhs5ZUrqhE0+XSr8P8HKkmunHYrJAzsxDxixKgJuD/cWQSBaMlVeZyZdxFQ==
+"@deck.gl/core@>=7.0.0-alpha.6":
+  version "7.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@deck.gl/core/-/core-7.0.0-alpha.6.tgz#b6fff7cc23e24ac40655dab60014682a2046ffa0"
+  integrity sha512-zM6ytd74UjtT1LRL8ny8eZX3QhYbG2pPWfpWv7PHa/wAWLkABoRPgrlMbHlRIAJlI6Ww/aVldYu6YdouEda4ng==
   dependencies:
     gl-matrix "^3.0.0"
     luma.gl "^7.0.0-alpha.17"
@@ -638,10 +638,10 @@
     seer "^0.2.4"
     viewport-mercator-project "^6.0.0"
 
-"@deck.gl/layers@>=7.0.0-alpha.5":
-  version "7.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@deck.gl/layers/-/layers-7.0.0-alpha.5.tgz#8de8aa8892d41231cae6fb40d8e129664122dfc0"
-  integrity sha512-7Bx10tOjZRm4K00w8O0QYXIxE7JvkZEpv+Jcv85KkUVrSaXpKTMTNbVEVmqfWvyfSqu+sqMoOn63dOxmbbir7g==
+"@deck.gl/layers@>=7.0.0-alpha.6":
+  version "7.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@deck.gl/layers/-/layers-7.0.0-alpha.6.tgz#55ed842beb620c2114ffc76b6f60e8394915805f"
+  integrity sha512-uSqa3FyU3+rBUgC4LXf1GRwtfvUHwNbJACnRLZlQ+aUfaZpMUikLYgmxIR39OvDC22uImk+pMg5WITu8u5UVtA==
   dependencies:
     "@loaders.gl/core" "^0.6.2"
     "@mapbox/tiny-sdf" "^1.1.0"
@@ -4646,6 +4646,7 @@ timers-browserify@^2.0.4:
 tinyqueue@^1.1.0:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/tinyqueue/-/tinyqueue-1.2.3.tgz#b6a61de23060584da29f82362e45df1ec7353f3d"
+  integrity sha512-Qz9RgWuO9l8lT+Y9xvbzhPT2efIUIFd69N7eF7tJ9lnQl0iLj1M7peK7IoUGZL9DJHw9XftqLreccfxcQgYLxA==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
