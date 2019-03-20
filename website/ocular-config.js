@@ -1,11 +1,10 @@
-const resolve = require('path').resolve;
-const ALIASES = require('ocular-dev-tools/config/ocular.config')({
-  root: resolve(__dirname, '..')
-}).aliases;
-
-const DEPENDENCIES = require('./package.json').dependencies;
+// const resolve = require('path').resolve;
+// const ALIASES = require('ocular-dev-tools/config/ocular.config')({
+//   root: resolve(__dirname, '..')
+// }).aliases;
 
 const DOCS = require('../docs/table-of-contents.json');
+const DEPENDENCIES = require('./package.json').dependencies;
 
 // When duplicating example dependencies in website, autogenerate
 // aliases to ensure the website version is picked up
@@ -60,7 +59,10 @@ module.exports = {
       path: 'examples/core/instancing/',
       image: 'images/example-instancing.jpg'
     },
-    {title: 'ClusteringOverlayExample', path: 'examples/core/cubemap/', image: 'images/example-cubemap.jpg'},
+    {
+      title: 'ClusteringOverlayExample',
+      path: 'examples/core/cubemap/',
+      image: 'images/example-cubemap.jpg'},
     {
       title: 'EditPointsExample',
       path: 'examples/core/mandelbrot/',
@@ -78,7 +80,7 @@ module.exports = {
     }
   ],
 
-  THEME_OVERRIDES: [{key: true, value: true}],
+  THEME_OVERRIDES: [{ key: true, value: true }],
 
   DOCS,
 
@@ -90,12 +92,15 @@ module.exports = {
   // Ocular adds this to gatsby's webpack config
   webpack: {
     resolve: {
-      alias: Object.assign({}, ALIASES, dependencyAliases)
+      alias: dependencyAliases
     }
   },
 
   // TODO - remnants from gatsby starter, remove and replace with ocular CAPS constants aboves
-  siteUrl: 'https://nebula.gl', // Domain of your website without pathPrefix.
-  pathPrefix: '/nebula', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteRss: '/rss.xml' // Path to the RSS file.
+  // Domain of your website without pathPrefix.
+  siteUrl: 'https://nebula.gl',
+  // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  pathPrefix: '/nebula',
+  // Path to the RSS file.
+  siteRss: '/rss.xml'
 };

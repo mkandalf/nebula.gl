@@ -4,7 +4,7 @@ import {
   EditPointsExample,
   EditPolygonsExample,
   WorldHeritageExample
-} from '../../docs/examples/examples';
+} from '../../../docs/examples/examples';
 
 export default {
   BasicOverlayExample: {app: BasicOverlayExample, path: 'examples/'},

@@ -2,33 +2,38 @@
   "id": "table-of-contents",
   "chapters": [
     {
-      "title": "Overview",
-      "entries": [
+      "title": "Introduction",
+      "chapters": [
         {
-          "entry": "docs/overview"
+          "title": "Overview",
+          "entries": [
+            {
+              "entry": "docs/overview"
+            },
+            {
+              "entry": "docs/whats-new"
+            },
+            {
+              "entry": "docs/roadmap"
+            },
+            {
+              "entry": "docs/FAQ"
+            },
+            {
+              "entry": "docs/upgrade-guide"
+            }
+          ]
         },
         {
-          "entry": "docs/whats-new"
-        },
-        {
-          "entry": "docs/roadmap"
-        },
-        {
-          "entry": "docs/FAQ"
-        },
-        {
-          "entry": "docs/upgrade-guide"
-        }
-      ]
-    },
-    {
-      "title": "Get Started",
-      "entries": [
-        {
-          "entry": "docs/get-started/installing.md"
-        },
-        {
-          "entry": "docs/get-started/basic-usage.md"
+          "title": "Get Started",
+          "entries": [
+            {
+              "entry": "docs/get-started/installing.md"
+            },
+            {
+              "entry": "docs/get-started/basic-usage.md"
+            }
+          ]
         }
       ]
     },
@@ -83,6 +88,5 @@
         }
       ]
     }
-    ]
-  }
-];
+  ]
+}
